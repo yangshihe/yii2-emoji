@@ -2,7 +2,7 @@
 namespace yangshihe\emoji;
 
 /**
- *   yii2 扩展, 微信表情包处理
+ *   yii2 扩展, 微信表情包处理 我是测试文件
  *
  *@package
  *@author yuzhiyang <yangshihe@qq.com>

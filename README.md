@@ -9,6 +9,8 @@
 
 - 替换4字节为html span标签；
 - 前台加载的根据css显示表情。
+- 表情源来自微信公众平台用户管理页面的CSS文件
+- 后期表情如缺少了,可以给发邮件,我会增加表情库
 
 ### 安装
 Either run
@@ -31,8 +33,7 @@ to the ```require``` section of your `composer.json` file.
 
 配置Asset
 yangshihe/emoji/EmojiAsset.php;
-<?php
-....code...
+
 class EmojiAsset extends AssetBundle {
 
 
@@ -58,10 +59,12 @@ $face = emoji::toHtml($str);
 
 前端部分 需要视图的部分//
 use yangshihe\emoji\EmojiAsset;
+
+按需加载
 EmojiAsset::register($this->getView());
 
 OR
-依赖方式
+依赖加载
 AppAsset.php
 
     public $depends = [
