@@ -37,7 +37,7 @@ class EmojiAsset extends AssetBundle {
 
 
     public $css = [
-        'emoji.css',
+        'e.css',
     ];
 
     public function init()

@@ -33,19 +33,6 @@ class Emoji
 
         $maps = dirname(__FILE__) . DIRECTORY_SEPARATOR . 'emoji_code.json';
 
-       //  $maps1 = dirname(__FILE__) . DIRECTORY_SEPARATOR . 'emoji_code-1.json';
-
-       // $data = json_decode(file_get_contents($maps1), true);
-       //  $arr = [];
-       //  foreach ($data as $key => $value) {
-       //      $arr[$value['softb_unicode']] = '<span class="emoji-outer emoji-sizer"><span class="emoji-inner ' . $value['class']. '"></span></span>';
-       //  }
-
-      //  file_put_contents($maps,json_encode($arr));
-
-       // $arr = json_decode(file_get_contents($maps), true);
-
-
 		return json_decode(file_get_contents($maps), true);
 	}
 
