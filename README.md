@@ -16,14 +16,10 @@
 Either run
 
 ```
-$ php composer.phar require yangshihe/yii2-emoji "@dev"
+$ composer require yangshihe/yii2-emoji 
 ```
 
-or add
 
-```
-"yangshihe/yii2-emoji": "@dev"
-```
 
 to the ```require``` section of your `composer.json` file.
 

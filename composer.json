@@ -1,19 +1,15 @@
 {
     "name": "yangshihe/yii2-emoji",
-    "description": "The emoji extension for the Yii framework",
-    "keywords": ["yii2", "extension", "emoji"],
-    "homepage": "https://github.com/yangshihe/yii2-emoji",
-    "type": "yii2-extension",
-    "language": "php",
-    "license": "BSD 3-Clause",
-    "minimum-stability": "stable",
+    "description": "Yii2 emoji",
+    "license": "null",
+    "language": "css",
     "authors": [
         {
             "name": "yangshihe",
-            "email": "yangshihe@qq.com",
-            "homepage": "https://github.com/yangshihe"
+            "email": "yangshihe@qq.com"
         }
     ],
+    "minimum-stability": "stable",
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "*"
@@ -22,10 +18,6 @@
         "psr-4": {
             "yangshihe\\emoji\\": ""
         }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.6-dev"
-        }
     }
 }
+
